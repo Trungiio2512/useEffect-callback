@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
 function Callback() {
+  // useState => re-render component
   const [title, setTitle] = useState("");
 
   useEffect(() => {
